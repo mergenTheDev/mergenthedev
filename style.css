@@ -158,3 +158,17 @@ ul li #active {
     blinkCursor 0.5s step-end infinite alternate;
   margin-top: 1.5em;
 }
+
+.langs {
+  margin-top: 150px;
+  margin: auto;
+}
+
+.langs h2 {
+  font-family: "pixel", "Minecraft Regular";
+}
+
+.langs img {
+  width: 196px;
+  height: auto;
+}
