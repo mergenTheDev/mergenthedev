@@ -45,13 +45,13 @@ li a:hover {
   background-color: #111;
 }
 
-.active {
+/*.active {
   background-color: #6c00d0;
 }
 
 .active:hover {
   background-color: #5607a0;
-}
+}*/
 
 .bg {
   background-color: #6c00d0;
