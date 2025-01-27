@@ -159,16 +159,16 @@ ul li #active {
   margin-top: 1.5em;
 }
 
-.langs {
+.lang {
   margin-top: 150px;
   margin: auto;
 }
 
-.langs h2 {
+.lang h2 {
   font-family: "pixel", "Minecraft Regular";
 }
 
-.langs img {
+.lang img {
   width: 196px;
   height: auto;
 }
