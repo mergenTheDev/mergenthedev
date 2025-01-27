@@ -154,10 +154,3 @@ li a:hover {
     blinkCursor 0.5s step-end infinite alternate;
   margin-top: 1.5em;
 }
-
-
-.repos {
-  position: relative;
-  margin: auto;
-  margin-top: 100px;
-}
