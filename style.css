@@ -171,9 +171,11 @@ ul li #active:hover {
 .lang h2 {
   font-family: "pixel", "Minecraft Regular";
   color: #eee;
+  margin: auto;
 }
 
 .lang img {
+  margin: auto;
   width: 196px;
   height: auto;
 }
