@@ -49,6 +49,10 @@ ul li #active {
   background-color: #6c00d0;
 }
 
+ul li #active:hover {
+  background-color: #500599;
+}
+
 /*.active {
   background-color: #6c00d0;
 }
