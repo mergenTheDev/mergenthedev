@@ -164,16 +164,22 @@ ul li #active:hover {
 }
 
 .lang {
-  margin: auto;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 .lang h2 {
   font-family: "pixel", "Minecraft Regular";
   color: #eee;
+  text-align: center;
 }
 
 .lang img {
-  width: 196px;
+  margin: auto;
+  width: 180px;
   height: auto;
+}
+
+.lang #rust {
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
