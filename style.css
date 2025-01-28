@@ -176,8 +176,6 @@ ul li #active:hover {
 .lang img {
   margin: auto;
   margin-top: 20px;
-  /*margin-left: 50%;
-  margin-right: 50%;*/
   display: flex;
   justify-content: center;
   width: 180px;
@@ -415,7 +413,6 @@ ul li #active:hover {
     max-width: 100%;
   }
 }
-
 
 /*footer*/
 
