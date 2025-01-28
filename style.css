@@ -287,3 +287,147 @@ ul li #active:hover {
     }
   }
 }
+
+/*links*/
+.links h1 {
+  margin-top: 450px;
+  font-family: "pixel", "Minecraft Regular";
+  text-align: center;
+  color: #eee;
+}
+
+.links {
+  font-family:'Courier New', Courier, monospace;
+}
+
+/*Github*/
+
+.button-icon {
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  border: 3px #fff solid;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.icon {
+  background-color: #fff;
+  padding: 10px 10px 5px 10px;
+}
+
+.icon svg {
+  width: 25px;
+  height: 25px;
+}
+
+.gcube {
+  transition: all 0.4s;
+  transform-style: preserve-3d;
+  width: 200px;
+  height: 20px;
+}
+
+.button-icon:hover {
+  border-color: #6c00d0;
+}
+
+.button-icon:hover .gcube {
+  transform: rotateX(90deg);
+}
+
+.side {
+  position: absolute;
+  height: 47px;
+  width: 200px;
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.top {
+  background: #6c00d0;
+  color: #fff;
+  transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+}
+
+.front {
+  background: #222229;
+  color: #fff;
+  transform: translate3d(0, 0, 1em);
+}
+
+/*Discord*/
+
+.discord {
+  margin: auto;
+  margin-top: 10px;
+  max-width: 320px;
+  display: flex;
+  padding: 0.5rem 1.4rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(86, 98, 246, 0.25);
+  gap: 0.75rem;
+  color: #ffffff;
+  background-color: #5662f6;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  text-decoration: none;
+}
+
+.discord svg {
+  height: 24px;
+  width: 24px;
+  fill: #fff;
+  margin-right: 0.5rem;
+}
+
+.discord:hover {
+  transform: scale(1.02);
+  background-color: rgb(119, 133, 204);
+  box-shadow: 0 2px 4px rgba(119, 133, 204, 0.1);
+}
+
+.discord:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.discord:active {
+  transform: scale(0.98);
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .discord {
+    max-width: 100%;
+  }
+}
+
+
+/*footer*/
+
+.footer {
+  margin-top: 50px;
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+  background-color: #6c00d0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  color: #eee;
+}
