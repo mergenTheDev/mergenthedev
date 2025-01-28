@@ -11,6 +11,12 @@ body {
   src: url("assets/minecraft-regular.otf") format("truetype");
 }
 
+iframe {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
 /*Navbar*/
 
 /*ul {
